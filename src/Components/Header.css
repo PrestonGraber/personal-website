@@ -96,6 +96,22 @@ header h2 p{
         transform: translateY(0);
     }
 }
-@media (max-width: 850px){
-    
+@media screen and (min-width: 310px) and (max-width: 420px){
+    header{
+        width: 100vw;
+    }
+    h1{
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    h1 span{
+        font-size: 25px;
+        margin-right: 0;
+    }
+    h2{
+       position: relative;
+       top: 50px;
+       right: 70%;
+
+    }
 }

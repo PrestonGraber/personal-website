@@ -15,7 +15,7 @@ function Home(){
                     <d>Front-End Developer</d>
                 </h1>
 
-                <a href = "#collection" className = "show-me">
+                <a href = "#Section2" className = "show-me">
                     <span>About me</span>
                 </a>
             </div>
