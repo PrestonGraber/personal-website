@@ -89,7 +89,7 @@ header h2 p{
         color: var(--clr-pri);
         transform: translateY(-10px);
     }
-    70%{
+    75%{
         color: var(--clr-sec);
     }
     100%{

@@ -31,9 +31,9 @@
     -webkit-text-fill-color: transparent;
     font-family: Varela Round, sans-serif;
    
-
+    
 }
-.conllection.active h1 span{
+.collection.active h1 span{
     animation: animatate-collection 1s ease 1.5s forwards;
 }
 @keyframes animation-collection{

@@ -24,7 +24,7 @@ function Contact() {
        setactive(true);
       }
     }
-    scrollAnimation();
+    scrollAnimation();  
     window.addEventListener("scroll",scrollAnimation);
   }, []);
 

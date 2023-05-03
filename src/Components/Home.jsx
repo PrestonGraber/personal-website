@@ -13,6 +13,7 @@ function Home(){
                 <h1>
                     <c>Preston</c> Graber <br />
                     <d>Front-End Developer</d>
+                    <p>Avid-Learner</p>
                 </h1>
 
                 <a href = "#Section2" className = "show-me">

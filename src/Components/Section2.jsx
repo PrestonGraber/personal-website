@@ -27,7 +27,7 @@ function Section2() {
             <div className = "text text1">
                 <h1>How I <span>Started</span></h1>
                 <h2>
-                  I first learned how to program in the year of 2018. I interned for Wattre.Inc and my mentor
+                  I first learned how to program in the year of 2019. I interned for Wattre.Inc and my mentor
                   was adamant that I learned Objective-C. He made me practice the language by programming micro-controllers
                   using arduino. Soon after, I learned that I much prefer Front-End Development and have been zoning in my skills
                   the past few years. 

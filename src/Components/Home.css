@@ -22,10 +22,10 @@
 @keyframes glow {
     0%,
     100%{
-        filter: saturate(1);
+        filter: saturate(0.75);
     }
-    50%{
-        filter: saturate(2.5);
+    50%,60%{
+        filter: saturate(2);
     }
 }
 .bg::after{
@@ -60,9 +60,13 @@
     transform: translateY(100px);
     animation: reveal 1s ease-out 2.5s forwards;
 }
+.content h1 p{
+    margin-top: 15px;
+    font-size: 30px;
+}
 @keyframes reveal{
     to{
-        height: 233px;
+        height: 300px;
         transform: translateY(0);
     }
 }
@@ -90,8 +94,9 @@
     justify-content: center;
     border-radius: 100px;
     padding: 19px 35px;
+    margin-left: 20px;
     background-color: var(--clr-pri);
-    margin-top: 40px;
+    margin-top: 35px;
     text-decoration: none;
     cursor: pointer;
     opacity: 0;
